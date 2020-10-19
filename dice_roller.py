@@ -10,7 +10,7 @@ def main():
     if roll == 1:
       print(f'You rolled a {roll}! Ez nagy baj!')
     elif roll == dice_size:
-      print(f"You rolled a {roll}! Gratulálunk!")
+      print(f"You rolled a {roll}! Gratulálunk!") #ez csak egy comment
     else:
       print(f'You rolled a {roll}')
   print(f"Összesen: {dice_sum}")
